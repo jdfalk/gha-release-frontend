@@ -27,7 +27,7 @@ runs:
 
     - name: Build frontend
       continue-on-error: true
-      uses: jdfalk/release-frontend-action@0bfb75c7e3d1b529b0a1e575afd9b3f65e1be4fe # v1.1.3
+      uses: jdfalk/release-frontend-action@5b908f2838643282ce83c261a09b4c98e44b6235 # v1.1.4
       with:
         node-version: ${{ inputs.node-version }}
         working-directory: ${{ steps.frontend-dir.outputs.dir }}
